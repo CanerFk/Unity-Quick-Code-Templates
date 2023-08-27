@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Camera playerCamera;
     [SerializeField] Transform groundCheckTransform;
     [SerializeField] LayerMask groundLayer;
-    public float mouseSensitivity { get; private set; } = 100f;
+    public float mouseSensitivity { get; private set; } = 200f;
     public float xRotation { get; private set; } = 0;
     public bool isGrounded { get; private set; } = false;
     public bool isWalking { get; private set; } = false;
